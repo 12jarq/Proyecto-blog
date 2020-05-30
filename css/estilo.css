@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --colorTitulo: #0d47a1;
+    --coloeTexto: #000;
+    --colorBoton: #fff;
+    --fondoBarra: #292b2c;
+    --colorSubtitulo: #4285F4;
+}
