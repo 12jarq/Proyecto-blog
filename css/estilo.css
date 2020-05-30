@@ -110,3 +110,136 @@
     /*background-color: red;*/
     font-size: 1.3rem;
 }
+
+h1 {
+    font-size: 2.2rem;
+    color: var(--colorTitulo);
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+}
+
+.articulos {
+    width: 60%;
+    /*background-color: lavender;*/
+}
+
+.articulo {
+    margin-bottom: 25px;
+}
+
+.articulo h3 {
+    font-size: 1.5rem;
+    color: var(--colorSubtitulo);
+    margin-bottom: 15px;
+}
+
+.articulo img {
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+.articulo p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.boton {
+    padding: 7px 23px;
+    background-color: var(--fondoBarra);
+    color: var(--colorBoton);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.posts {
+    width: 40%;
+    /*background-color: lightgreen;*/
+}
+
+.posts h2 {
+    font-size: 1.5rem;
+    color: var(--colorSubtitulo);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.post {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: royalblue;*/
+    /*background-color: lightsalmon;*/
+}
+
+.post img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post ul li {
+    width: 100%;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--colorSubtitulo);
+    text-align: center;
+    /*background-color:green;*/
+}
+
+.post ul li .imgList {
+    display: inline-block;
+    width: 15px;
+    height: auto;
+    margin-right: 15px;
+    /*background-color: #292b2c;*/
+}
+
+.formulario {
+    /*background-color: lightpink;*/
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.formulario h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--colorTitulo);
+    margin-bottom: 17px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    background-image: url(../img/line.jpg);
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="password"] {
+    margin-bottom: 25px;
+}
+
+.btn {
+    width: 40%;
+    padding: 4px 2px;
+    background-color: skyblue;
+    color: var(--colorBoton);
+}
